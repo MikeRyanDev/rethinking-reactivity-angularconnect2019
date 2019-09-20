@@ -1,0 +1,43 @@
+app-root {
+  font-family: "Raleway", sans-serif;
+  display: grid;
+  padding: 80px;
+  max-width: 400px;
+  margin: 0 auto;
+  grid-template-areas:
+    "decrement count increment"
+    "decrement countLabel increment";
+  grid-template-columns: 100px 200px 100px;
+  justify-content: center;
+  align-items: center;
+
+  .decrement {
+    grid-area: decrement;
+  }
+  .increment {
+    grid-area: increment;
+  }
+  .count {
+    grid-area: count;
+    font-size: 128px;
+    text-align: center;
+  }
+  .countLabel {
+    grid-area: countLabel;
+    text-align: center;
+  }
+
+  button {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
