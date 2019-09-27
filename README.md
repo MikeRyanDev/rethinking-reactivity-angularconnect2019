@@ -2,6 +2,6 @@
 
 ## AngularConnect 2019
 
-Link to the talk: https://youtu.be/bEYhD5zHPvo?t=6020
+Link to the talk: https://youtu.be/rz-rcaGXhGk
 
 Follow me on Twitter [@MikeRyanDev](https://twitter.com/mikeryandev)
